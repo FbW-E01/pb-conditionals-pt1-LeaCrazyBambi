@@ -53,7 +53,29 @@ if ((sumOfNumbers >= 50) && (sumOfNumbers<= 80)) {
 (number1 === 15) || (number2 === 15) || (sumOfNumbers === 15) ? console.log(true) : console.log(false);
 
 // 8. 
-// (number1 / 7) === ? console.log(true) : console.log(false);
-// console.log(number1 / 7);
+(number1 % 7) === 0 ? console.log(true) : console.log(false);
 
-// 9
+// 9.
+
+
+//  10. 
+const  specifiedNumb = 20;
+const differenceOf = specifiedNumb - 19;
+
+if ( specifiedNumb > 19 ) {
+  console.log(differenceOf * 2)
+}
+
+// 11.
+const firstName = "Leyla";
+const age = 21;
+
+if (age < 13) {
+  console.log(firstName + " is a child")
+} else if ((age => 13) && (age < 20)) {
+  console.log(firstName + " is a teenager")
+} else if ((age => 20) && (age < 30)) {
+  console.log(firstName + " is a young adult")
+} else {
+  console.log( firstName + " is a adult")
+}
